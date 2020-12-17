@@ -1,0 +1,17 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    left: 5%;
+    height: 20%;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+.header-img{
+    height:90px;
+}
