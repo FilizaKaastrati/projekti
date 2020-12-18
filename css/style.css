@@ -1,16 +1,28 @@
-.header{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    left: 5%;
-    height: 20%;
-    flex-wrap: wrap;
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+.header-ul{
+    display: inline;
+    margin-left: 200px;
+
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    flex-wrap: nowrap;
+
+   
+li{
+    position: relative;
+    padding-left: 60px;
+    display: inline;
+    width:200px;
+    height: 90px; 
+}
+
+li a{
+    color:black;
+    text-decoration-line: none;
+    border: 1 pc solid black; 
 }
 .header-img{
     height:90px;
